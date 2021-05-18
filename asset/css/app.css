@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+header {
+  background-color: black;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Droid Sans", arial, serif;
+  color: coral;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#age-box {
+  display: block;
+}
+
+#value-input {
+  padding: 30px;
+  font-size: 25px;
+  border-radius: 15px;
+  color: coral;
+  outline: 0;
+  font-weight: bold;
+}
+
+#btn-convert {
+  background-color: coral;
+  padding: 30px;
+  font-size: 20px;
+  border-radius: 15px;
+  outline: 0;
+  border-width: 0;
+  color: white;
+}
+
+#btn-convert:hover {
+  background-color: darksalmon;
+  cursor: pointer;
+}
+
+#result-box {
+  margin-top: 100px;
+  border: 2px solid black;
+  width: 50%;
+  border-radius: 10px;
+  display: inline-block;
+  font-family: "Droid Sans", arial, serif;
+}
+
+p {
+  font-family: "Droid Sans", arial, serif;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#footer {
+  background-color: black;
+  color: coral;
+  font-family: "Droid Sans", arial, serif;
+  font-weight: bold;
+  position: absolute;
+  padding: 20px;
+  width: 100%;
+  margin-top: 100px;
+  bottom: 0;
+  text-align: center;
+}
